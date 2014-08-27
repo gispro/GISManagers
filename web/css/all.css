@@ -1,0 +1,422 @@
+.x-action-col-cell img {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.x-btn-icon-el img {
+    height: 16px;
+    width: 16px;
+}
+
+.x-action-col-cell img.gxp-icon-edit {
+    background-image: url(../img/pencil.png);
+}
+.x-action-col-cell img.gxp-icon-exclude {
+    background-image: url(../img/delete.png);
+}
+.x-action-col-cell img.gxp-icon-add {
+    background-image: url(../img/add.png);
+}
+.x-action-col-cell img.gxp-icon-delete {
+    background-image: url(../img/delete.png);
+}
+.x-action-col-cell img.gxp-icon-moveup {
+    background-image: url(../img/arrow_up.png);
+}
+.x-action-col-cell img.gxp-icon-movedown {
+    background-image: url(../img/arrow_down.png);
+}
+x-btn-icon-el img.add-btn {
+    background-image: url(../img/add.png) !important;
+}
+
+add-srv {
+    background-image: url(../img/server-add.png) !important;
+}
+
+.accept {
+    background-image: url(../img/accept.png) !important;
+}
+.decline {
+    background-image: url(../img/decline.png) !important;
+}
+
+.x-grid-row .x-grid-cell-inner {
+    white-space: normal;
+}
+.x-grid-row-over .x-grid-cell-inner {
+    white-space: normal;
+}
+
+/* TOOLS */
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .magnifier{
+    background: url(../img/magnifier_zoom_in.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.magnifier{
+    background: url(../img/magnifier_zoom_in.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .arrow-out{
+    background: url(../img/arrow_out.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.arrow-out{
+    background: url(../img/arrow_out.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .information{
+    background: url(../img/information.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.information{
+    background: url(../img/information.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .legend{
+    background: url(../img/application_view_tile.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.legend{
+    background: url(../img/application_view_tile.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .printer{
+    background: url(../img/printer.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.printer{
+    background: url(../img/printer.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .pan{
+    background: url(../img/pan.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.pan{
+    background: url(../img/pan.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .logger{
+    background: url(../img/logger.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.logger{
+    background: url(../img/logger.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .pricker{
+    background: url(../img/pricker.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.pricker{
+    background: url(../img/pricker.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .featuremanager{
+    background: url(../img/featuremanager.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.featuremanager{
+    background: url(../img/featuremanager.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .queryform{
+    background: url(../img/queryform.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.queryform{
+    background: url(../img/queryform.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .zoom-previous{
+    background: url(../img/arrow_left.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.zoom-previous{
+    background: url(../img/arrow_left.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .ruler{
+    background: url(../img/ruler.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.ruler{
+    background: url(../img/ruler.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+/* RUBRICATOR EDITOR */
+
+.gxp-isservice{
+    background: url(../img/isservice.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+.gxp-islayer{
+    background: url(../img/islayer.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.gxp-feed{
+    background: url(../img/feed.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.gxp-control{
+    background: url(../img/control.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+
+.x-tree-node .gxp-isservice, .x-grid-tree-node-collapsed .gxp-isservice{
+    background: url(../img/isservice.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-grid-tree-node-expanded .gxp-isservice {
+    background: url(../img/isservice.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-islayer, .x-grid-tree-node-collapsed .gxp-islayer{
+    background: url(../img/islayer.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-grid-tree-node-expanded .gxp-islayer {
+    background: url(../img/islayer.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-feed, .x-grid-tree-node-collapsed .gxp-feed{
+    background: url(../img/feed.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-grid-tree-node-expanded .x-tree-icon-parent .gxp-feed {
+    background: url(../img/feed.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-tree-node .gxp-control, .x-grid-tree-node-collapsed .gxp-control{
+    background: url(../img/control.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.x-grid-tree-node-expanded .gxp-control {
+    background: url(../img/control.png);
+    background-repeat: no-repeat;
+    height: 18px;
+    vertical-align: middle;
+}
+
+
+
+.olControlPanPanel div {
+    background-image:url(../img/tool-sprites.gif);
+    height:15px;
+    width:15px;
+    /* workaround for button height in IE */
+    font-size:0px;
+}
+
+.olControlPanPanel .olControlPanNorthItemInactive {
+    background-position:15px -60px;
+    left:16px
+}
+.olControlPanPanel .olControlPanEastItemInactive {
+    background-position:15px -120px;
+    left: 30px;
+    top: 16px;
+}
+.olControlPanPanel .olControlPanSouthItemInactive {
+    background-position:15px -75px;
+    left: 16px;
+    top: 32px;
+}
+.olControlPanPanel .olControlPanWestItemInactive {
+    background-position:15px -105px;
+    left: 2px;
+    top: 16px;
+}
+
+.olControlZoomPanel { 
+    left:21px;
+}
+
+.olControlZoomPanel div {
+    background-image:url(../img/tool-sprites.gif);
+    height:15px;
+    width:15px;
+    /* workaround for button height in IE */
+    font-size:0px;
+}
+
+.olControlZoomPanel .olControlZoomInItemInactive {
+    background-position:15px -240px;
+}
+
+.olControlZoomPanel .olControlZoomToMaxExtentItemInactive {
+    display: none;
+}
+
+.olControlZoomPanel .olControlZoomOutItemInactive {
+    background-position:15px -255px;
+    top: 123px;
+}
+
+.olControlScaleLine {
+    font-family: tahoma,arial,helvetica,sans-serif;
+}
+
+.olControlAttribution {
+    bottom: 5px;
+    font-size: 10px;
+    left: 10px;
+    right: inherit;
+}
+
+
+.x-btn-inner {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    display: block;
+    font-family: tahoma, arial, verdana, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    /*height: 16px;*/
+    letter-spacing: normal;
+    /*line-height: 16px;*/
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0px;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    white-space: nowrap;
+    /*width: 16px;*/
+    word-spacing: 0px;
+    zoom: 1;
+}
+
+.x-btn-icon-el {
+    background-repeat: no-repeat;
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    height: 16px;
+    left: 0px;
+    letter-spacing: normal;
+    /*line-height: 16px;*/
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    top: 0px;
+    white-space: nowrap;
+    /*width: 16px;*/
+    word-spacing: 0px;
+    zoom: 1;
+}
+
+a a:hover {
+   text-decoration: initial; 
+}

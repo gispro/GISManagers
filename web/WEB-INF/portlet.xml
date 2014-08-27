@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<portlet-app xmlns='http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd' version='2.0'>
+    <portlet>
+        <portlet-name>AnimationManager</portlet-name>
+        <display-name>Менеджер анимации</display-name>
+        <description>AnimationManager</description>
+        <portlet-class>
+            ru.gispro.animationmanager.AnimationManagerPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.animationmanager.config</resource-bundle> 
+    </portlet>
+    <portlet>
+        <portlet-name>ChartManager</portlet-name>
+        <display-name>Менеджер графиков</display-name>
+        <description>ChartManager</description>
+        <portlet-class>
+            ru.gispro.chartmanager.ChartManagerPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.chartmanager.config</resource-bundle>
+    </portlet>
+    <portlet>
+        <portlet-name>ProfileManager</portlet-name>
+        <display-name>Менеджер профилей</display-name>
+        <description>ProfileManager</description>
+        <portlet-class>
+            ru.gispro.profilemanager.ProfileManagerPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.profilemanager.config</resource-bundle>
+    </portlet>
+    <portlet>
+        <portlet-name>RubricatorEditor</portlet-name>
+        <display-name>Редактор рубрикатора</display-name>
+        <description>RubricatorEditor</description>
+        <portlet-class>
+            ru.gispro.rubricatoreditor.RubricatorEditorPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.rubricatoreditor.config</resource-bundle>
+    </portlet>
+    <portlet>
+        <portlet-name>ServiceManager</portlet-name>
+        <display-name>Менеджер сервисов</display-name>
+        <description>ServiceManager</description>
+        <portlet-class>
+            ru.gispro.servicemanager.ServiceManagerPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.servicemanager.config</resource-bundle>
+    </portlet>
+    <portlet>
+        <portlet-name>PublicationMonitorPortlet</portlet-name>
+        <display-name>Журнал публикации</display-name>
+        <description>PublicationMonitor</description>
+        <portlet-class>
+            ru.gispro.publicationmonitor.PublicationMonitorPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.publicationmonitor.config</resource-bundle>
+    </portlet>
+     <portlet>
+        <portlet-name>ActionLogPortlet</portlet-name>
+        <display-name>Журнал действий пользователя</display-name>
+        <description>ActionLog</description>
+        <portlet-class>
+            ru.gispro.actionlog.ActionLogPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.actionlog.config</resource-bundle>
+    </portlet>
+    <portlet>
+        <portlet-name>PublisherPortlet</portlet-name>
+        <display-name>Менеджер публикации</display-name>
+        <description>Publisher</description>
+        <portlet-class>
+            ru.gispro.publisher.PublisherPortlet
+        </portlet-class>
+        <supports>
+            <mime-type>text/html</mime-type>
+        </supports>
+        <resource-bundle>ru.gispro.publisher.config</resource-bundle>
+    </portlet>
+</portlet-app>
